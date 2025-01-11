@@ -7,7 +7,7 @@ let avgLowCar = 0
 function setup() {
   createCanvas(600, 600);
   for( let i = 0; i < 12; i++ ) {
-    // these lines create fake temperature data using
+    //These lines create fake temperature data using
     //   fancy math. You could just use random and a 
     //   given range if you like. 
     let h = randomGaussian(50, 12)
